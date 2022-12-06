@@ -4,6 +4,7 @@ function tocaSom (idElementoAudio) {
 
 const listaDeTeclas = document.querySelectorAll('.tecla');
 
+//O for otimiza a estrutura de repetição
 for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     const tecla = listaDeTeclas[contador];
