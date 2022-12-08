@@ -11,7 +11,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
 
     const instrumento = tecla.classList[1];
 
-    //template string
+    //Faz o negocio todo funcionar
     const idAudio = `#som_${instrumento}`
 
 
